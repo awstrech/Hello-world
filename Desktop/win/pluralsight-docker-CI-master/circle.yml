@@ -1,17 +1,6 @@
 # The deployment section should be excluded until
 # it is explicitly included in module 5
 
-<<<<<<< HEAD
-deployment:
- dockerhub:
-   branch: master
-   commands:
-     - $DOCKER_HUB_TRIGGER
-
-test:
-  override:
-    - mocha
-=======
 #deployment:
 #  dockerhub:
 #    branch: master
@@ -21,4 +10,3 @@ test:
 test:
   override:    
     - mocha
->>>>>>> 7108a66148da1adc3fd199b5e360e65e268d7032
